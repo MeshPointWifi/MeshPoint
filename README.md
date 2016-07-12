@@ -1,2 +1,2 @@
 # MeshPoint
-MeshPoint is Open source wifi hotspot for crisis situations
+MeshPoint is Open source Wifi Hotspot for Crisis Situations
