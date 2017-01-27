@@ -1,0 +1,13 @@
+There are three versions of outes shell.
+
+If you are using standard 3D printers like Ultimaker, Makerbot or Prusa i3 line of 3D printers then you need enable supports to successfuly print this model.
+
+1 part shell:
+If you have 3D printer that can handle dimentsions to print outer case in one piece use this single Shell-uni.stl
+file.  
+
+2 part shell:
+Use these two files (Shell-1-duo and Shell-2-duo) to print on most of 3D printers. 
+
+3 part shell:
+Same as previous model with additioanlly separated top.
