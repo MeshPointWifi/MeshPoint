@@ -2,5 +2,10 @@
 MeshPoint is Open source Wifi Hotspot for Crisis Situations
 www.meshpointone.com
 
-All 3D files are released under Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) Licence
-https://creativecommons.org/licenses/by-sa/4.0/
+## Licence
+
+This project (hardware designs, 3D files and documentation) is released under the
+**CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)**.
+
+See the [LICENCE](LICENCE) file for the full text.
+More info: https://cern-ohl.web.cern.ch/
