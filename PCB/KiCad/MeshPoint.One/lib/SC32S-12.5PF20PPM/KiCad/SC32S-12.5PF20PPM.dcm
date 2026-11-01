@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC32S-12.5PF20PPM
+D 32.768 kHz +/-20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead
+K
+F https://www.sii.co.jp/en/quartz/files/2013/03/SC-32S_Leaflet_e20151217.pdf
+$ENDCMP
+#
+#End Doc Library

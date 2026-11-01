@@ -1,0 +1,978 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9b831bda-ff65-40b6-88ad-72147175938d")
+	(paper "A4")
+	(title_block
+		(title "${project_name} ")
+		(date "2026-01-22")
+		(rev "${project_version} ")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 96.774 102.616)
+		(end 170.434 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid "015c5a43-cba2-4c32-87b4-0d3045232e59")
+	)
+	(rectangle
+		(start 96.52 19.812)
+		(end 206.502 100.076)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid "399707de-c726-42dc-84e9-d18200b80dbf")
+	)
+	(text "POE/BATT power selector"
+		(exclude_from_sim no)
+		(at 49.784 90.424 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "0b425191-832a-4e72-8b0e-07c866dd6d26")
+	)
+	(text "${project_name} ${project_version} "
+		(exclude_from_sim no)
+		(at 53.34 17.78 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "17fbdedb-4fc5-4b66-b6cd-778401f2d3c1")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 196.088 49.022 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#3")
+		)
+		(uuid "2c5ca9b2-5b82-4991-83f4-2ed1b8701a1e")
+	)
+	(text "Power supply 5V/3V3"
+		(exclude_from_sim no)
+		(at 130.302 37.084 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "2d52132d-f9bd-4588-a8af-b8b70d8f0bcb")
+	)
+	(text "         Index"
+		(exclude_from_sim no)
+		(at 183.642 25.146 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "2e895a5a-9777-450e-b0e9-adcdff7279e1")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 196.342 83.566 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#9")
+		)
+		(uuid "31f31ae5-878a-46e7-8186-1004c522007c")
+	)
+	(text "POE in and WAN filter"
+		(exclude_from_sim no)
+		(at 131.318 77.724 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#8")
+		)
+		(uuid "39e4020a-64c1-4acb-8516-37ba5cb02c8b")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 196.342 66.294 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#6")
+		)
+		(uuid "3a5faf23-0db6-41ec-99e6-41141ef0e4f5")
+	)
+	(text "USB UART adapter"
+		(exclude_from_sim no)
+		(at 47.498 113.792 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "404958b2-9b7d-4525-ba73-2e8aff1b944a")
+	)
+	(text "POE in and WAN filter"
+		(exclude_from_sim no)
+		(at 48.768 137.414 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "40e49ebf-2dfd-4859-b1ac-40359aa84c15")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 196.342 71.882 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#7")
+		)
+		(uuid "41b770a1-c996-4e17-8c15-91918fbb5d71")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 196.088 37.846 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "470d568f-bea8-41f9-ab7a-ace010b3e194")
+	)
+	(text "POE 24V PSU"
+		(exclude_from_sim no)
+		(at 118.618 43.18 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#2")
+		)
+		(uuid "4e17d115-0116-4116-8564-00674df1ba7a")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 196.342 77.724 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#8")
+		)
+		(uuid "4e536529-41a6-4aad-93cb-8b033f4e94b7")
+	)
+	(text "POE out 24V supply"
+		(exclude_from_sim no)
+		(at 47.752 64.77 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "57f2b719-bd48-42d7-9a81-925f5d271e07")
+	)
+	(text "POE out and LAN filter"
+		(exclude_from_sim no)
+		(at 23.368 151.892 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "62f95a64-13e5-4b30-8b7f-383459b524f5")
+	)
+	(text "Jalapeno and LED monitors"
+		(exclude_from_sim no)
+		(at 139.446 88.392 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#10")
+		)
+		(uuid "7338a490-6fcd-42db-9d4a-ed0ef8310c3b")
+	)
+	(text "BME 280 and RTC"
+		(exclude_from_sim no)
+		(at 47.244 125.222 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "7429d464-46d0-4469-92f3-9a4a180688ee")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 196.342 60.706 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#5")
+		)
+		(uuid "74ea4eb6-2ebf-421e-8947-16854789ed29")
+	)
+	(text "INA voltage/current monitor"
+		(exclude_from_sim no)
+		(at 139.954 48.768 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#3")
+		)
+		(uuid "8466e950-092f-482f-95a6-2ac2dc5fe061")
+	)
+	(text "BME 280 and RTC"
+		(exclude_from_sim no)
+		(at 125.222 71.882 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#7")
+		)
+		(uuid "847585a6-14cc-4017-853c-dd9c33a56e37")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 196.088 93.98 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "894a7578-36e0-4363-87a7-ba07cc53912e")
+	)
+	(text "POE/BATT power selector"
+		(exclude_from_sim no)
+		(at 135.636 54.864 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#4")
+		)
+		(uuid "8bb4c5ec-4bc6-46c1-9c59-a808a473bf46")
+	)
+	(text "Jalapeno and LED monitors"
+		(exclude_from_sim no)
+		(at 18.542 164.592 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9454902d-54c4-4479-aba7-3fd46b4a6add")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 196.088 54.864 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#4")
+		)
+		(uuid "9d89b9c1-59da-4907-8d77-5207ffea9c44")
+	)
+	(text "Power supply 5V/3V3"
+		(exclude_from_sim no)
+		(at 49.276 52.324 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "a67a3d52-8dc0-4bb1-a37f-f4fa0cc947cd")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 194.564 88.646 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#10")
+		)
+		(uuid "a7f2ca83-a90e-45da-b699-220d244dd2e8")
+	)
+	(text "USB PSU and filters"
+		(exclude_from_sim no)
+		(at 46.736 102.362 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "bcff712a-c1b0-4a58-81c5-601961ab9ffa")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 196.088 43.434 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#2")
+		)
+		(uuid "bd451a04-2b59-43c3-baf8-bbad2828abb8")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 105.41 93.218 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "cd5b4b7a-937a-482f-8c19-21382594ba71")
+	)
+	(text "USB UART adapter"
+		(exclude_from_sim no)
+		(at 125.222 65.786 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#6")
+		)
+		(uuid "d271fac5-367e-4e24-be58-8a5371873bc7")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 140.208 30.988 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "d44f9237-2c71-43c4-8ab9-b433424c17e5")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 196.342 30.988 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "d4a88200-c747-4021-a817-677bafc248a5")
+	)
+	(text "INA voltage/current monitor"
+		(exclude_from_sim no)
+		(at 50.546 77.216 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "d6d990d7-9d29-41df-a2de-93ddf501d9c3")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 140.208 25.146 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "e2ae87ef-ae0c-40f6-8b2a-1cd1a0c70fa3")
+	)
+	(text "POE out and LAN filter"
+		(exclude_from_sim no)
+		(at 132.588 83.058 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#9")
+		)
+		(uuid "e463c300-9e38-462b-99f5-a5194e47f7eb")
+	)
+	(text "Blender render top side"
+		(exclude_from_sim no)
+		(at 133.35 106.68 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "f5f18cbe-274b-46ec-8fb4-1cc497f543a8")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 257.302 18.542 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "f79c52df-e381-48e7-8ac2-6c71e37a5cda")
+	)
+	(text "USB PSU and filters"
+		(exclude_from_sim no)
+		(at 128.27 60.452 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#5")
+		)
+		(uuid "f886bfc5-ad6e-49c8-983e-357ec96e0b32")
+	)
+	(text_box "${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+		(exclude_from_sim no)
+		(at 15.24 21.59 0)
+		(size 62.738 12.192)
+		(margins 1.524 1.524 1.524 1.524)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 158 196 255 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left top)
+		)
+		(uuid "35d5dfdf-09bd-42f1-8ab5-5d364131d3b0")
+	)
+	(sheet
+		(at 15.24 48.26)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 132 0.5)
+		)
+		(uuid "1d1e6a43-f10f-4ade-98cf-c452575cc63d")
+		(property "Sheetname" "Jalapeno_1"
+			(at 15.24 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_1.kicad_sch"
+			(at 15.24 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 86.36)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 132 0 0 0.5)
+		)
+		(uuid "2551588a-bae3-4772-a71a-d794b3326d75")
+		(property "Sheetname" "Jalapeno_4"
+			(at 15.24 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_4.kicad_sch"
+			(at 15.24 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 158.75)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 72 0 0 0.5)
+		)
+		(uuid "2b34d9e0-696c-4e2b-a891-62a88260004a")
+		(property "Sheetname" "Jalapeno_10"
+			(at 15.24 158.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_10.kicad_sch"
+			(at 15.24 166.9546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 121.92)
+		(size 69.85 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 204 102 0 0.5)
+		)
+		(uuid "3185dcfe-8a7e-4d10-8765-44fca50f7a09")
+		(property "Sheetname" "Jalapeno_7"
+			(at 15.24 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_7.kicad_sch"
+			(at 15.24 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 73.66)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 132 132 0.5)
+		)
+		(uuid "51db8262-c977-43bd-a8a1-2a0140586812")
+		(property "Sheetname" "Jalapeno_3"
+			(at 15.24 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_3.kicad_sch"
+			(at 15.24 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 60.96)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.5)
+		)
+		(uuid "5c50890f-5e6f-450f-9fdd-889c61378f38")
+		(property "Sheetname" "Jalapeno_2"
+			(at 15.24 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_2.kicad_sch"
+			(at 15.24 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 110.49)
+		(size 69.85 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 132 132 0 0.5)
+		)
+		(uuid "63313915-6432-4196-bb9f-3fb575fff3e4")
+		(property "Sheetname" "Jalapeno_6"
+			(at 15.24 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_6.kicad_sch"
+			(at 15.24 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 99.06)
+		(size 69.85 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 132 0 132 0.5)
+		)
+		(uuid "6ad0d116-2a80-4da7-bd09-618d43bb27c1")
+		(property "Sheetname" "Jalapeno_5"
+			(at 15.24 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_5.kicad_sch"
+			(at 15.24 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 133.35)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 72 72 72 0.5)
+		)
+		(uuid "7f760795-e512-4526-8524-847adb13c842")
+		(property "Sheetname" "Jalapeno_8"
+			(at 15.24 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_8.kicad_sch"
+			(at 15.24 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 146.05)
+		(size 69.85 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 132 0.5)
+		)
+		(uuid "9ccb483f-d951-4727-8853-cd0d4f93b904")
+		(property "Sheetname" "Jalapeno_9"
+			(at 15.24 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jalapeno_9.kicad_sch"
+			(at 15.24 154.2546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshPoint.One"
+				(path "/9b831bda-ff65-40b6-88ad-72147175938d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

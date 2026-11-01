@@ -1,0 +1,233 @@
+(footprint "TACTILE_SWITCH_SMD_4.6X2.8MM_535"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm\n\nNormally-open (NO) SPST momentary switches (buttons, pushbuttons).\n\nhttp://www.ck-components.com/media/1479/kmr2.pdf Datasheet")
+	(property "Reference" "REF**"
+		(at 0 -1.524 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7809476-3b75-487e-8d89-51d75e7fb768")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TACTILE_SWITCH_SMD_4.6X2.8MM_535"
+		(at 0 1.524 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b34978a-a533-4431-9993-9c40ed8c8fa8")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0406676-704d-45c6-a218-5b2d3bd83b7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a903cd0e-ee4a-413d-92ea-6393e052c188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.1 -0.13)
+		(end -2.1 0.13)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1178bc21-18c6-4410-ac90-558c6a3a3c03")
+	)
+	(fp_line
+		(start -1.338 -1.4)
+		(end 1.338 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8e66bb5-f6f8-43ac-aa54-962bc344fa58")
+	)
+	(fp_line
+		(start 1.338 1.4)
+		(end -1.338 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f13ae3c-f37c-4a57-a38d-ded90454bbba")
+	)
+	(fp_line
+		(start 2.1 0.13)
+		(end 2.1 -0.13)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb78f9e6-2dff-46da-90b4-f9dcc5d5013b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.805 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1cc72c8e-f866-4de9-8408-85f09811090a")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end -2.1 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb62d687-d085-4b1a-93cf-cae4aabb4f80")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end 2.1 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "239266a6-b1d6-40bb-973c-e2ff70bc3a6a")
+	)
+	(fp_line
+		(start -2.1 1.4)
+		(end 2.1 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68307c61-0439-4713-9959-1a9987c58a3d")
+	)
+	(fp_line
+		(start 2.1 1.4)
+		(end 2.1 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bad139b-9a7d-4507-808d-0b95d03048cd")
+	)
+	(fp_poly
+		(pts
+			(xy -2.3 -0.5) (xy -2.1 -0.5) (xy -2.1 -1.1) (xy -2.3 -1.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "96bfd205-4340-42d5-ab7b-d219518ec5a9")
+	)
+	(fp_poly
+		(pts
+			(xy -2.3 1.1) (xy -2.1 1.1) (xy -2.1 0.5) (xy -2.3 0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e60a67a9-7649-4260-927c-886259873f1b")
+	)
+	(fp_poly
+		(pts
+			(xy 2.3 -1.1) (xy 2.1 -1.1) (xy 2.1 -0.5) (xy 2.3 -0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "7c334344-45f6-46df-8fe1-de0dacdc8a44")
+	)
+	(fp_poly
+		(pts
+			(xy 2.3 0.5) (xy 2.1 0.5) (xy 2.1 1.1) (xy 2.3 1.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a798d14e-9fc6-44de-8d4c-e17b9898b91b")
+	)
+	(pad "1" smd rect
+		(at -2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "f7dbd21f-44e4-41da-93d7-94e4e89ac715")
+	)
+	(pad "2" smd rect
+		(at 2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "07724787-0344-4ecb-b591-3565fdc425e8")
+	)
+	(pad "3" smd rect
+		(at 2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "507363e4-9f45-4a88-9de3-46b282a11015")
+	)
+	(pad "4" smd rect
+		(at -2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "50e49a30-d6f8-4752-bb50-8ba09199127c")
+	)
+	(embedded_fonts no)
+)
