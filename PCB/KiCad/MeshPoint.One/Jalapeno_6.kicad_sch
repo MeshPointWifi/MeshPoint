@@ -2107,7 +2107,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2983,7 +2983,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 40.64 0)
 			(hide yes)
 			(show_name no)

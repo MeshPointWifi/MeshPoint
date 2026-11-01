@@ -1,35 +1,39 @@
 (footprint "HEATSINK"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "U$9"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "f795a972-ab58-407c-a933-5f1b465ac556")
+		(hide yes)
+		(uuid "da35d938-3295-4ff7-93d4-7174ef190ce7")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
 			)
+			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "HEATSINK"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "063ad9cd-c91f-4802-9df6-8e941efb6867")
+		(hide yes)
+		(uuid "ab32d5d3-dc38-4b2f-a59a-8868e416b1c8")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
 			)
+			(justify left bottom)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c22daeec-6bb7-4b56-870f-3e16ffb1a866")
+		(uuid "10789883-052b-4163-ba32-c8a34898373f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e9621870-1818-44dd-84fd-80a5c7deaa86")
+		(uuid "a8312e46-d719-4fd8-91e7-496832586e9e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49,27 +53,36 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at -23.98 22.52)
-		(size 3.2 3.2)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "2d241296-a89f-4bbc-b05f-0ae8ffc8a6c0")
+	(property "Digikey" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99c6d7d3-314c-494d-a973-e18ac39d1d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
-	(pad "" np_thru_hole circle
-		(at -0.48 -24.48)
-		(size 3.2 3.2)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "3fe08601-42fb-4169-81ee-ac465ccdfcbd")
+	(property "Mouser" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "020ddd27-7c43-4810-a581-a94e8af5b060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
-	(pad "" np_thru_hole circle
-		(at 23.02 22.52)
-		(size 3.2 3.2)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "a3f0e693-a4d9-4469-b879-1063195ed1cd")
-	)
+	(sheetname "/Jalapeno_10/")
+	(sheetfile "Jalapeno_10.kicad_sch")
+	(attr exclude_from_bom dnp)
+	(duplicate_pad_numbers_are_jumpers no)
 	(pad "1" thru_hole circle
 		(at -23.98 22.52)
 		(size 4.216 4.216)
@@ -78,7 +91,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "b346a968-4d83-481a-a759-75d937ed3a45")
+		(uuid "644e7d54-98fd-4931-8c5f-af988a36518e")
 	)
 	(pad "2" thru_hole circle
 		(at 23.02 22.52)
@@ -88,7 +101,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "c6956e43-0904-47fb-aa32-b13376b4e9b7")
+		(uuid "29f3d93f-17de-41da-bd47-655abf80dbbc")
 	)
 	(pad "3" thru_hole circle
 		(at -0.48 -24.48)
@@ -98,7 +111,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "d564c9a5-be20-454e-a9e4-4c0b0f1ddc49")
+		(uuid "c04f907a-8ce0-4cf1-a2de-0c363470edde")
 	)
 	(embedded_fonts no)
 )

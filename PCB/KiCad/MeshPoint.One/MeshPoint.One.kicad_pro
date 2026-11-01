@@ -78,67 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|165063602|60635600|6b769861-2ab4-4a8a-86ec-8a26f2bced71|f600a2c0-0f31-4d40-a13c-d6da5275f110",
-          ""
-        ],
-        [
-          "courtyards_overlap|165729100|63275600|072c4486-6ec4-4c15-a0f7-a2bab5abd354|6b769861-2ab4-4a8a-86ec-8a26f2bced71",
-          ""
-        ],
-        [
-          "courtyards_overlap|175872784|64153775|5f443987-7d80-47ee-a9cb-718bc8a64aa5|b042defe-b735-418e-a549-20c6d15ca5cb",
-          ""
-        ],
-        [
-          "courtyards_overlap|177773100|62230538|5e6d4b66-f399-4d50-9930-5f853e3a0cc0|95556b54-8480-4f5b-9162-0a6781bd0a7a",
-          ""
-        ],
-        [
-          "courtyards_overlap|177773100|63480538|5e6d4b66-f399-4d50-9930-5f853e3a0cc0|b042defe-b735-418e-a549-20c6d15ca5cb",
-          ""
-        ],
-        [
-          "courtyards_overlap|177779594|60824910|2d9f0e54-4021-4f49-ad85-84a39fb4cc26|5e6d4b66-f399-4d50-9930-5f853e3a0cc0",
-          ""
-        ],
-        [
-          "courtyards_overlap|181473100|57025600|4485555e-ea6d-4cfe-8029-bce07b4118f8|ea6bd217-e901-4178-8ee1-d91d68f845cd",
-          ""
-        ],
-        [
-          "courtyards_overlap|187448100|61435600|59a168bb-56a2-4779-9313-67bd413823aa|d9c150ff-2b8f-4e39-b721-5535e622f0ab",
-          ""
-        ],
-        [
-          "courtyards_overlap|189029100|61435600|1b9b4b83-2995-441a-9273-67552cab5691|4348443d-99c8-4b6e-8e70-0f90d2032d8d",
-          ""
-        ],
-        [
           "courtyards_overlap|191819100|144818600|310af543-5994-4f60-8913-bb2e28dba5b5|d8f3fce4-9808-4f4f-a385-1e88ef85845c",
-          ""
-        ],
-        [
-          "courtyards_overlap|195129100|61335600|6b0987dc-6812-4aeb-a29d-3527818e68b2|a3d480fd-3b01-4b8a-9e63-5efa6b99dd30",
-          ""
-        ],
-        [
-          "courtyards_overlap|195129100|64125600|6b0987dc-6812-4aeb-a29d-3527818e68b2|744281a5-3dbb-448b-ba42-5acfa2832ef0",
-          ""
-        ],
-        [
-          "courtyards_overlap|196329100|60035600|2a062c43-7c72-4378-83b7-99f0e594f063|73e09b0b-19b9-4f50-a618-4fa7db28433d",
-          ""
-        ],
-        [
-          "hole_clearance|112271100|108123600|4f0b5403-3521-405e-b448-3692f42fbbd2|f507ae2b-e922-493b-bdfd-c15a89277b1a",
-          ""
-        ],
-        [
-          "hole_clearance|135771100|61123600|a6ad7413-9beb-41b7-a929-9ae88663b0bd|0c1780a1-bdfd-47ae-a349-baa840bfd08c",
-          ""
-        ],
-        [
-          "hole_clearance|159271100|108123600|59213a30-4842-430e-83fd-38a289ddd8e9|240b3166-a0df-475e-86ff-ea399d3c74de",
           ""
         ]
       ],
@@ -277,6 +217,7 @@
       ],
       "track_widths": [
         0.0,
+        0.254,
         0.3,
         0.5
       ],
@@ -313,6 +254,10 @@
         },
         {
           "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
@@ -816,7 +761,7 @@
   "sheets": [
     [
       "9b831bda-ff65-40b6-88ad-72147175938d",
-      "Jalapeno"
+      "MeshPoint.One"
     ],
     [
       "5c50890f-5e6f-450f-9fdd-889c61378f38",

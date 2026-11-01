@@ -2272,7 +2272,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -2386,7 +2386,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2985,7 +2985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)

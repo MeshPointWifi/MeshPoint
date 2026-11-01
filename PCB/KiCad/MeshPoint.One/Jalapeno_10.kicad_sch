@@ -5849,7 +5849,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6041,7 +6041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6155,7 +6155,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Jalapeno:TACTILE_SWITCH_SMD_4.6X2.8MM"
+		(property "Footprint" "Jalapeno:TACTILE_SWITCH_SMD_4.6X2.8MM_535"
 			(at 195.58 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6509,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 226.06 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6701,7 +6701,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 232.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7127,7 +7127,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 241.3 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7319,7 +7319,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.49 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO"
+		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO_507"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8767,7 +8767,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 236.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8881,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO"
+		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO_507"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8978,7 +8978,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.49 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9170,7 +9170,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Jalapeno:TACTILE_SWITCH_SMD_4.6X2.8MM"
+		(property "Footprint" "Jalapeno:TACTILE_SWITCH_SMD_4.6X2.8MM_535"
 			(at 187.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9290,7 +9290,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 229.87 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9675,7 +9675,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10435,7 +10435,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10549,7 +10549,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10663,7 +10663,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10856,7 +10856,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Jalapeno:TACTILE_SWITCH_SMD_4.6X2.8MM"
+		(property "Footprint" "Jalapeno:TACTILE_SWITCH_SMD_4.6X2.8MM_535"
 			(at 270.51 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10976,7 +10976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO"
+		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO_507"
 			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11385,7 +11385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 252.73 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11733,7 +11733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO"
+		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO_507"
 			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11908,7 +11908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO"
+		(property "Footprint" "Jalapeno:FIDUCIAL-MICRO_507"
 			(at 35.56 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12317,7 +12317,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 127 0)
 			(hide yes)
 			(show_name no)
@@ -12431,7 +12431,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.11 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12545,7 +12545,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.73 74.93 0)
 			(hide yes)
 			(show_name no)
