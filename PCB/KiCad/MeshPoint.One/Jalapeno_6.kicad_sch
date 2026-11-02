@@ -2221,7 +2221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOIC127P600X175-8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 109.22 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2557,7 +2557,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3149,10 +3149,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fa801c60-41ad-4ff6-aecf-839d74d4a78a")
 		(property "Reference" "U_ART0"
 			(at 96.52 82.55 0)

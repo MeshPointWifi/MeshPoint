@@ -13,6 +13,207 @@
 		(comment 2 "Jalapeno and LED monitors")
 	)
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jalapeno-eagle-import:+3V3"
 			(power global)
 			(exclude_from_sim no)
@@ -2419,249 +2620,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jalapeno-eagle-import:LEDCHIP-LED0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 3.556 -4.572 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.715 -4.572 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Jalapeno:CHIP-LED0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "LED\n\nOSRAM:\n- CHIPLED\nLG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974\nLS Q976, LO Q976, LY Q976\nLO Q996\n- Hyper CHIPLED\nLW Q18S\nLB Q993, LB Q99A, LB R99A\n- SideLED\nLS A670, LO A670, LY A670, LG A670, LP A670\nLB A673, LV A673, LT A673, LW A673\nLH A674\nLY A675\nLS A676, LA A676, LO A676, LY A676, LW A676\nLS A679, LY A679, LG A679\n-  Hyper Micro SIDELED®\nLS Y876, LA Y876, LO Y876, LY Y876\nLT Y87S\n- SmartLED\nLW L88C, LW L88S\nLB L89C, LB L89S, LG L890\nLS L89K, LO L89K, LY L89K\nLS L896, LA L896, LO L896, LY L896\n- TOPLED\nLS T670, LO T670, LY T670, LG T670, LP T670\nLSG T670, LSP T670, LSY T670, LOP T670, LYG T670\nLG T671, LOG T671, LSG T671\nLB T673, LV T673, LT T673, LW T673\nLH T674\nLS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676\nLB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C\nLS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C\nLW T67C\nLS T679, LY T679, LG T679\nLS T770, LO T770, LY T770, LG T770, LP T770\nLB T773, LV T773, LT T773, LW T773\nLH T774\nLS E675, LA E675, LY E675, LS T675\nLS T776, LA T776, LO T776, LY T776, LB T776\nLHGB T686\nLT T68C, LB T68C\n- Hyper Mini TOPLED®\nLB M676\n- Mini TOPLED Santana®\nLG M470\nLS M47K, LO M47K, LY M47K\n\nSource: http://www.osram.convergy.de\n\nLUXEON:\n- LUMILED®\nLXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00\nLXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00\nLXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00\nLXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00\nLXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00\nLXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00\nLXK2-PH12-R00, LXK2-PH12-S00\nLXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00\n\nSource: www.luxeon.com\n\nKINGBRIGHT:\n\nKA-3528ASYC\nSource: www.kingbright.com"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LEDCHIP-LED0603_1_0"
-				(polyline
-					(pts
-						(xy -3.429 2.159) (xy -3.048 1.27) (xy -2.54 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 3.302) (xy -2.921 2.413) (xy -2.413 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy -3.429 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -3.302 -3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jalapeno-eagle-import:MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3309,10 +3267,22 @@
 		(uuid "02f71eb5-ab95-4f2f-9253-b713c2399ce3")
 	)
 	(junction
+		(at 231.14 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09926abc-d446-42c6-adcb-bd3bc835afec")
+	)
+	(junction
 		(at 180.34 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11960ebc-55b9-44ab-a72c-b8630a81b941")
+	)
+	(junction
+		(at 236.22 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf60d5d-b1fd-4e0f-b3d0-1f0edab1a07e")
 	)
 	(junction
 		(at 187.96 124.46)
@@ -3327,28 +3297,16 @@
 		(uuid "45cad5a8-839b-45e6-a5ef-dcb5902feca7")
 	)
 	(junction
-		(at 236.22 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d8e3e48-ef04-46e9-b41a-07bff916ab3c")
-	)
-	(junction
 		(at 270.51 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fb46992-11a7-4afe-b17c-228ef2c640ac")
 	)
 	(junction
-		(at 231.14 147.32)
+		(at 252.73 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6be8aef8-2d49-4ed3-b682-a1c8ef624c98")
-	)
-	(junction
-		(at 242.57 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "740b727e-3131-4518-b282-e7f94b3b4c1b")
+		(uuid "60597b49-54f1-4017-a96d-478db90a586c")
 	)
 	(junction
 		(at 177.8 104.14)
@@ -3363,34 +3321,34 @@
 		(uuid "7d43cf9f-1bd0-4f5c-b72e-cb62514aff89")
 	)
 	(junction
-		(at 237.49 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e978233-1197-43d6-abec-b4e3044a6f1f")
-	)
-	(junction
 		(at 195.58 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fff2324-da8e-4c88-b7f3-7281c05e364f")
 	)
 	(junction
+		(at 237.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe875d1-6827-471d-81be-773bfa798c45")
+	)
+	(junction
 		(at 241.3 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97ef8b94-096b-4a9b-9f29-1dd32dcb79e8")
-	)
-	(junction
-		(at 252.73 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e595d8a4-0065-498f-b95f-009cf6b4a63e")
+		(uuid "db3196e8-1095-4796-a06e-460c6ec51cb8")
 	)
 	(junction
 		(at 245.11 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9e235cc-0abe-47b1-83f2-839ce7176aa5")
+	)
+	(junction
+		(at 242.57 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f78e6008-ceff-4496-8546-bea8b0feaf9a")
 	)
 	(junction
 		(at 237.49 26.67)
@@ -3536,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 147.32) (xy 226.06 147.32)
+			(xy 226.06 147.32) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -3563,16 +3521,6 @@
 			(type solid)
 		)
 		(uuid "265294f3-b2c6-4376-a626-36554d81a883")
-	)
-	(wire
-		(pts
-			(xy 242.57 87.63) (xy 237.49 87.63)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "274d6d1a-f59b-41ab-930c-4a79404a0551")
 	)
 	(wire
 		(pts
@@ -3656,16 +3604,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 147.32) (xy 236.22 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3da0ef39-f98b-49c1-8372-8c35be7e0d25")
-	)
-	(wire
-		(pts
 			(xy 241.3 129.54) (xy 241.3 124.46)
 		)
 		(stroke
@@ -3736,6 +3674,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 87.63) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a532e92-18e7-41c1-a83c-f82b617f26cd")
+	)
+	(wire
+		(pts
 			(xy 78.74 58.42) (xy 71.12 58.42)
 		)
 		(stroke
@@ -3756,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 147.32) (xy 236.22 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b619d05-a4c0-4d55-acfe-36302b0e4e5e")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 127 27.94)
 		)
 		(stroke
@@ -3763,16 +3721,6 @@
 			(type solid)
 		)
 		(uuid "72092331-2c93-4b13-b7a9-f735fe1c9e83")
-	)
-	(wire
-		(pts
-			(xy 241.3 147.32) (xy 251.46 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7408efe5-f8c5-4bb6-9d77-697fbce236cb")
 	)
 	(wire
 		(pts
@@ -3793,6 +3741,16 @@
 			(type solid)
 		)
 		(uuid "763e15ab-09da-43be-b191-22b190bcf83b")
+	)
+	(wire
+		(pts
+			(xy 241.3 147.32) (xy 251.46 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77c9d983-3950-4b63-b7f6-e7c021b71ac7")
 	)
 	(wire
 		(pts
@@ -3833,6 +3791,16 @@
 			(type solid)
 		)
 		(uuid "8a9bd42c-2936-450a-954e-f33bf1857096")
+	)
+	(wire
+		(pts
+			(xy 236.22 147.32) (xy 241.3 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "941260bf-9bdd-499a-8f47-c1c4546f4f7e")
 	)
 	(wire
 		(pts
@@ -4106,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 87.63) (xy 232.41 87.63)
+			(xy 232.41 87.63) (xy 237.49 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -4123,16 +4091,6 @@
 			(type solid)
 		)
 		(uuid "dcb12c4a-c0cb-431f-8d9d-e292e6c24136")
-	)
-	(wire
-		(pts
-			(xy 236.22 147.32) (xy 231.14 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e3e0fb11-5a2e-4f07-be15-9e6653dab482")
 	)
 	(wire
 		(pts
@@ -5205,18 +5163,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 226.06 142.24 0)
+		(lib_id "Device:LED")
+		(at 226.06 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "01ca26ea-a82c-46b8-a191-a58104ad5bc5")
 		(property "Reference" "UNK100A0"
-			(at 228.092 153.924 90)
+			(at 221.742 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5227,7 +5185,7 @@
 			)
 		)
 		(property "Value" "YL"
-			(at 225.552 156.845 90)
+			(at 223.774 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5237,8 +5195,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 226.06 142.24 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 226.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 142.24 0)
+			(at 226.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,8 +5217,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 142.24 0)
+		(property "Description" "Light emitting diode"
+			(at 226.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5271,7 +5229,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 226.06 142.24 90)
+			(at 226.06 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5240,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 226.06 142.24 90)
+			(at 226.06 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5251,7 @@
 			)
 		)
 		(property "LCSC" "C72038"
-			(at 226.06 142.24 90)
+			(at 226.06 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5303,10 +5261,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "614f7569-2acc-4862-bb88-b20e98af0d44")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "f71a8e52-c536-4539-a2f6-8bc10bf3a24f")
 		)
 		(instances
@@ -5319,18 +5288,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 242.57 82.55 0)
+		(lib_id "Device:LED")
+		(at 242.57 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "025b76a1-4e70-43f1-bc0a-3a60ea44373f")
 		(property "Reference" "UNK5V0"
-			(at 243.84 90.551 90)
+			(at 236.982 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5341,7 +5310,7 @@
 			)
 		)
 		(property "Value" "GR"
-			(at 241.3 93.472 90)
+			(at 242.824 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5351,8 +5320,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 242.57 82.55 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 242.57 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,7 +5332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 82.55 0)
+			(at 242.57 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,8 +5342,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 242.57 82.55 0)
+		(property "Description" "Light emitting diode"
+			(at 242.57 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,7 +5354,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 242.57 82.55 90)
+			(at 242.57 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5365,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 242.57 82.55 90)
+			(at 242.57 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5376,7 @@
 			)
 		)
 		(property "LCSC" "C72043"
-			(at 242.57 82.55 90)
+			(at 242.57 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5417,10 +5386,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "8c0c2f88-8d66-483a-8d14-b628c2a0ca48")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "a16f1863-046a-4b31-8d45-30c9797f5750")
 		)
 		(instances
@@ -5589,18 +5569,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 231.14 142.24 0)
+		(lib_id "Device:LED")
+		(at 231.14 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0ba44389-3b74-4c9c-98c4-02e40aa6be9f")
 		(property "Reference" "UNK1000A0"
-			(at 235.712 153.924 90)
+			(at 228.092 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5611,7 +5591,7 @@
 			)
 		)
 		(property "Value" "GR"
-			(at 233.172 156.845 90)
+			(at 229.108 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5621,8 +5601,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 231.14 142.24 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 231.14 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 142.24 0)
+			(at 231.14 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,8 +5623,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 231.14 142.24 0)
+		(property "Description" "Light emitting diode"
+			(at 231.14 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5635,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 231.14 142.24 90)
+			(at 231.14 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5646,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 231.14 142.24 90)
+			(at 231.14 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5657,7 @@
 			)
 		)
 		(property "LCSC" "C72043"
-			(at 231.14 142.24 90)
+			(at 231.14 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,10 +5667,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "0ae79556-7fb7-4898-933d-6fca70984ca8")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "230502be-8d5f-4187-b4bc-a58cf264aa63")
 		)
 		(instances
@@ -5703,18 +5694,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 252.73 82.55 0)
+		(lib_id "Device:LED")
+		(at 252.73 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "117097b6-8e08-42ad-a395-64246cb0447c")
 		(property "Reference" "VIN0"
-			(at 256.286 87.122 90)
+			(at 259.588 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5725,7 +5716,7 @@
 			)
 		)
 		(property "Value" "GR"
-			(at 258.445 87.122 90)
+			(at 255.27 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5735,8 +5726,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 252.73 82.55 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 252.73 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 82.55 0)
+			(at 252.73 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5757,8 +5748,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 252.73 82.55 0)
+		(property "Description" "Light emitting diode"
+			(at 252.73 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5760,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 252.73 82.55 90)
+			(at 252.73 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +5771,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 252.73 82.55 90)
+			(at 252.73 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,7 +5782,7 @@
 			)
 		)
 		(property "LCSC" "C72043"
-			(at 252.73 82.55 90)
+			(at 252.73 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,10 +5792,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 252.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "2f422c5a-f0e7-4dfc-a839-3732903c07e7")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "7a8b93da-5543-4e34-beb5-e54b5829df5a")
 		)
 		(instances
@@ -7557,8 +7559,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 232.41 82.55 0)
+		(lib_id "Device:LED")
+		(at 232.41 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7568,7 +7570,7 @@
 		(dnp no)
 		(uuid "52bafd51-8220-4641-a3dd-8fdf795e235e")
 		(property "Reference" "STATUS0"
-			(at 228.6 93.091 90)
+			(at 229.362 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7579,7 +7581,7 @@
 			)
 		)
 		(property "Value" "BL"
-			(at 226.06 96.012 90)
+			(at 230.378 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7589,8 +7591,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 232.41 82.55 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +7603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 82.55 0)
+			(at 232.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7611,8 +7613,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 82.55 0)
+		(property "Description" "Light emitting diode"
+			(at 232.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +7625,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 232.41 82.55 90)
+			(at 232.41 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7636,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 232.41 82.55 90)
+			(at 232.41 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7647,7 @@
 			)
 		)
 		(property "LCSC" "C2288"
-			(at 232.41 82.55 90)
+			(at 232.41 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7655,10 +7657,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "08feef35-6d00-47e2-a012-53325c4f92cc")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "474de54c-65fe-4850-99cd-52fe1221d058")
 		)
 		(instances
@@ -7671,18 +7684,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 241.3 142.24 0)
+		(lib_id "Device:LED")
+		(at 241.3 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5568a366-8d7e-46cc-ad15-6a40c3a9b9f3")
 		(property "Reference" "UNK1000B0"
-			(at 250.952 153.924 90)
+			(at 238.252 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7693,7 +7706,7 @@
 			)
 		)
 		(property "Value" "GR"
-			(at 248.412 156.845 90)
+			(at 242.062 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7703,8 +7716,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 241.3 142.24 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,7 +7728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 142.24 0)
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,8 +7738,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 142.24 0)
+		(property "Description" "Light emitting diode"
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +7750,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 241.3 142.24 90)
+			(at 241.3 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7761,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 241.3 142.24 90)
+			(at 241.3 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,7 +7772,7 @@
 			)
 		)
 		(property "LCSC" "C72043"
-			(at 241.3 142.24 90)
+			(at 241.3 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7769,10 +7782,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "843e3550-4b8d-4a68-8abe-323d01a5d9f7")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "1e8cb0f2-646d-43d2-babd-95a63e0c3ec7")
 		)
 		(instances
@@ -7868,10 +7892,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "571e1e31-bfe4-4561-a72f-380fe71ec979")
 		(property "Reference" "U$5"
 			(at 124.46 101.6 0)
@@ -9561,7 +9585,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 275.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10097,18 +10121,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 237.49 82.55 0)
+		(lib_id "Device:LED")
+		(at 237.49 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a39f6679-47dc-4bc4-b92e-f239fa60705f")
 		(property "Reference" "UNK3V3"
-			(at 236.22 90.551 90)
+			(at 234.95 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10119,7 +10143,7 @@
 			)
 		)
 		(property "Value" "GR"
-			(at 233.68 93.472 90)
+			(at 238.252 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10129,8 +10153,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 237.49 82.55 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 237.49 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,7 +10165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 82.55 0)
+			(at 237.49 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10151,8 +10175,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 237.49 82.55 0)
+		(property "Description" "Light emitting diode"
+			(at 237.49 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10187,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 237.49 82.55 90)
+			(at 237.49 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10174,7 +10198,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 237.49 82.55 90)
+			(at 237.49 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10185,7 +10209,7 @@
 			)
 		)
 		(property "LCSC" "C72043"
-			(at 237.49 82.55 90)
+			(at 237.49 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,10 +10219,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "2e324dcc-cf2f-4e20-b6ee-2e710cb0f486")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "7fa00545-bc0f-4d5d-8028-9d2b3bbfea68")
 		)
 		(instances
@@ -10211,18 +10246,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 236.22 142.24 0)
+		(lib_id "Device:LED")
+		(at 236.22 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a4febd5f-cd0d-4077-b9ff-ba1d2576b859")
 		(property "Reference" "UNK100B0"
-			(at 243.332 153.924 90)
+			(at 232.918 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10233,7 +10268,7 @@
 			)
 		)
 		(property "Value" "YL"
-			(at 240.792 156.845 90)
+			(at 236.982 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10243,8 +10278,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 236.22 142.24 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10255,7 +10290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 142.24 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,8 +10300,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 142.24 0)
+		(property "Description" "Light emitting diode"
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10277,7 +10312,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 236.22 142.24 90)
+			(at 236.22 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10288,7 +10323,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 236.22 142.24 90)
+			(at 236.22 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10299,7 +10334,7 @@
 			)
 		)
 		(property "LCSC" "C72038"
-			(at 236.22 142.24 90)
+			(at 236.22 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10309,10 +10344,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 236.22 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "e5694985-9680-49f8-8148-71939052ccf5")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "3393f6c2-58ea-4a3d-967c-fac35d8670d8")
 		)
 		(instances
@@ -12627,8 +12673,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jalapeno-eagle-import:LEDCHIP-LED0603")
-		(at 247.65 82.55 0)
+		(lib_id "Device:LED")
+		(at 247.65 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12638,7 +12684,7 @@
 		(dnp no)
 		(uuid "f6506452-510c-44fa-853d-542ab72b04c1")
 		(property "Reference" "VOUT0"
-			(at 251.46 90.551 90)
+			(at 249.936 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12649,7 +12695,7 @@
 			)
 		)
 		(property "Value" "BL"
-			(at 248.92 93.472 90)
+			(at 248.158 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12659,8 +12705,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Jalapeno:CHIP-LED0603"
-			(at 247.65 82.55 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 247.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12671,7 +12717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 82.55 0)
+			(at 247.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12681,8 +12727,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 82.55 0)
+		(property "Description" "Light emitting diode"
+			(at 247.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12693,7 +12739,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 247.65 82.55 90)
+			(at 247.65 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12704,7 +12750,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 247.65 82.55 90)
+			(at 247.65 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12715,7 +12761,7 @@
 			)
 		)
 		(property "LCSC" "C2288"
-			(at 247.65 82.55 90)
+			(at 247.65 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,10 +12771,21 @@
 				)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 247.65 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "1431d1b8-5fe7-4359-9446-36b5f2f92a4f")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "d7b189a7-ffa8-421a-b306-c03d791cae40")
 		)
 		(instances

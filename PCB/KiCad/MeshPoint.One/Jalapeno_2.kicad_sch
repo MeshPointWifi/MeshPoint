@@ -7410,7 +7410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jalapeno:PW16"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 78.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8241,7 +8241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 68.58 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8472,7 +8472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:DR125"
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
 			(at 129.54 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8814,7 +8814,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 187.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9045,7 +9045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 175.26 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9693,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 175.26 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10938,7 +10938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 175.26 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +11472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11972,7 +11972,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:DRC0010J"
+		(property "Footprint" "Package_SON:Texas_DRC0010J"
 			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12114,7 +12114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOT-23_1"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 104.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12231,7 +12231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13425,7 +13425,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)

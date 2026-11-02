@@ -2985,7 +2985,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "28ea07e1-2f69-440e-b625-3188c063a253")
 		(property "Reference" "USB3.0"
 			(at 114.3 91.44 0)

@@ -2331,7 +2331,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOIC127P490X600X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2463,7 +2463,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.98 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2655,7 +2655,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:TSOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 160.02 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3405,7 +3405,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:SOIC127P490X600X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)

@@ -3431,7 +3431,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C1206K"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 261.62 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3703,7 +3703,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "33d90a6d-ff25-4390-b774-ae99a423cc05")
 		(property "Reference" "J1"
 			(at 223.52 72.39 0)
@@ -3985,7 +3985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 254 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4483,7 +4483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:PTC1812L"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 157.48 160.02 0)
 			(hide yes)
 			(show_name no)

@@ -2917,6 +2917,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Possible Eagle >> KiCad error"
+		(exclude_from_sim no)
+		(at 202.946 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82c1525a-9643-4bc0-93f5-9f12dd43c873")
+	)
 	(junction
 		(at 149.86 129.54)
 		(diameter 0)
@@ -3229,6 +3239,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 118.11) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84feff37-350d-41dd-87d9-83efb0ba1ce2")
+	)
+	(wire
+		(pts
 			(xy 142.24 88.9) (xy 154.94 88.9)
 		)
 		(stroke
@@ -3236,6 +3256,16 @@
 			(type solid)
 		)
 		(uuid "8c291455-f317-4c27-b1bb-144ebe297dd4")
+	)
+	(wire
+		(pts
+			(xy 195.58 118.11) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5e1d29-b94e-448c-974b-53bb9838206b")
 	)
 	(wire
 		(pts
@@ -4414,7 +4444,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:M1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 215.9 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4684,7 +4714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:MINI-FLAT-4"
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
 			(at 218.44 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5315,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b80a0f44-0115-4b58-90c2-9e9c859128d2")
 		(property "Reference" "J2"
 			(at 185.42 44.45 0)
@@ -5447,7 +5477,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:C1206K"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 223.52 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6103,7 +6133,7 @@
 	)
 	(symbol
 		(lib_id "Jalapeno-eagle-import:BZT52C15S")
-		(at 200.66 111.76 180)
+		(at 200.66 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6113,7 +6143,7 @@
 		(dnp no)
 		(uuid "fa107c88-0536-4740-b400-11b70055dc5a")
 		(property "Reference" "ZD3"
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6154,7 @@
 			)
 		)
 		(property "Value" "BZT52C15S"
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6165,7 @@
 			)
 		)
 		(property "Footprint" "Jalapeno:SOD2513X120N"
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6198,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6209,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6190,7 +6220,7 @@
 			)
 		)
 		(property "LCSC" "C19077448"
-			(at 200.66 111.76 0)
+			(at 200.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

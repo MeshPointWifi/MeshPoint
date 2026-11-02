@@ -453,7 +453,7 @@
 		)
 		(uuid "e463c300-9e38-462b-99f5-a5194e47f7eb")
 	)
-	(text "Blender render top side"
+	(text "Blender render"
 		(exclude_from_sim no)
 		(at 133.35 106.68 0)
 		(effects

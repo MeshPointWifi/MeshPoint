@@ -2628,7 +2628,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jalapeno:BME280"
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
 			(at 218.44 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3857,7 +3857,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a9eb5ee4-e185-440d-82a1-9b05c3fe2f06")
 		(property "Reference" "BATT1"
 			(at 177.8 20.32 0)
