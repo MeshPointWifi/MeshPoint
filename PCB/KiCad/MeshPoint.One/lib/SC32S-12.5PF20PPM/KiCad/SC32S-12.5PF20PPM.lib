@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SC32S-12.5PF20PPM
+#/1120971/88823/2.50/2/3/Crystal or Oscillator
+DEF SC32S-12.5PF20PPM Y 0 30 Y Y 1 F N
+F0 "Y" 350 250 50 H V L CNN
+F1 "SC32S-12.5PF20PPM" 350 150 50 H V L CNN
+F2 "SC32S125PF20PPM" 350 50 50 H I L CNN
+F3 "https://www.sii.co.jp/en/quartz/files/2013/03/SC-32S_Leaflet_e20151217.pdf" 350 -50 50 H I L CNN
+F4 "32.768 kHz +/-20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead" 350 -150 50 H I L CNN "Description"
+F5 "0.85" 350 -250 50 H I L CNN "Height"
+F6 "628-SC32S-125PF20PPM" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Seiko-Instruments-Micro-Energy/SC32S-12.5PF20PPM?qs=3CPZD7qAgihedyqH7awUjg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Seiko Epson Corporation" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "SC32S-12.5PF20PPM" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 0 100 L 50 50 0 0 P
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 5 0 1 6 160 140 160 -140 240 -140 240 140 160 140 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 120 0 100 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

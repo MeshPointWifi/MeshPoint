@@ -1,0 +1,220 @@
+(footprint "153CLV-1010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Aluminum electrolytic capacitors\n\nSMD (Chip) Long Life Vertical 153 CLV\n\nhttp://www.bccomponents.com/")
+	(property "Reference" "REF**"
+		(at -5.29 -5.53 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fec85656-2346-46f0-8748-abe814c10b8c")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "153CLV-1010"
+		(at -5.325 6.785 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb8bcbcd-5b95-4133-b54e-6900b9f5afa6")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "478373a5-dd5a-48a9-bad8-60301b139efd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d34e983-8c0e-4544-bd1f-22340f8eb01f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.2 -5.2)
+		(end 4.3 -5.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dba2a5c-f228-4778-8861-0866457f0a07")
+	)
+	(fp_line
+		(start -5.2 -1.5)
+		(end -5.2 -5.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a17cc4a-3170-422d-a72d-6b0ba84c607b")
+	)
+	(fp_line
+		(start -5.2 5.2)
+		(end -5.2 1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c2d7912-3bdb-4d90-b538-7ca9d59a1634")
+	)
+	(fp_line
+		(start 4.3 -5.2)
+		(end 5.2 -4.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe00ed14-2265-46e4-85a1-67ecef84da19")
+	)
+	(fp_line
+		(start 4.3 5.2)
+		(end -5.2 5.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b95023ad-3522-425d-9397-3a864a816e06")
+	)
+	(fp_line
+		(start 5.2 -4.3)
+		(end 5.2 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e359adf-f978-4bc0-84d4-4d80617ebb84")
+	)
+	(fp_line
+		(start 5.2 1.5)
+		(end 5.2 4.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e49bc5a-cba8-47b0-88ab-e86e2672df4b")
+	)
+	(fp_line
+		(start 5.2 4.3)
+		(end 4.3 5.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e461578-56e4-4b6e-943c-846a35724e0c")
+	)
+	(fp_arc
+		(start -4.65 -1.55)
+		(mid 0 -4.90153)
+		(end 4.65 -1.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1b4969e-a142-42ed-bb58-cda4a11cdf4c")
+	)
+	(fp_arc
+		(start 4.65 1.55)
+		(mid 0 4.90153)
+		(end -4.65 1.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "223475fc-5375-4841-a56a-2b8e2ce57b4f")
+	)
+	(fp_line
+		(start -5.2 1.5)
+		(end -5.2 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "035ac825-bd28-49a1-bd44-7efa14d36347")
+	)
+	(fp_line
+		(start 5.2 -1.5)
+		(end 5.2 1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75f20526-cbaf-4567-8548-8669aa56f8a7")
+	)
+	(fp_arc
+		(start -4.65 1.55)
+		(mid -4.90153 0)
+		(end -4.65 -1.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ea911de-2b9c-459b-89ee-3676dfd685db")
+	)
+	(fp_arc
+		(start 4.65 -1.55)
+		(mid 4.90153 0)
+		(end 4.65 1.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d03707d1-12b6-473b-ae49-7aa0ba5d74a7")
+	)
+	(pad "+" smd rect
+		(at 4 0)
+		(size 4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "c73c0086-8ec6-4438-be94-328e99deff7f")
+	)
+	(pad "-" smd rect
+		(at -4 0)
+		(size 4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "bc6c8cb4-8ed0-46b5-9ec2-8956abfa5e1a")
+	)
+	(embedded_fonts no)
+)

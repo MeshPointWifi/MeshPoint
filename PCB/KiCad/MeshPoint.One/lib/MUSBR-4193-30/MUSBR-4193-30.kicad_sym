@@ -1,0 +1,217 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MUSBR-4193-30" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -10.16 15.748 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MUSBR-4193-30" (id 1) (at -10.16 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MUSBR-4193-30:AMPHENOL_MUSBR-4193-30" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Amphenol Commercial Products" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            USB-A (USB TYPE-A), Stacked USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 18 Position Panel Mount, Through Hole, Right Angle\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/MUSBR-4193-30/Amphenol/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "C" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/MUSBR-4193-30/Amphenol/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "MUSBR-4193-30" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Amphenol" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MUSBR-4193-30_1_0"
+      (rectangle (start -10.16 -15.24) (end 10.16 15.24)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -15.24 7.62 0) (length 5.08)
+        (name "B_D+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 10.16 0) (length 5.08)
+        (name "B_D-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 12.7 0) (length 5.08)
+        (name "B_VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 5.08 0) (length 5.08)
+        (name "B_GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 2.54 0) (length 5.08)
+        (name "B_STDA_SSRX-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 0.0 0) (length 5.08)
+        (name "B_STDA_SSRX+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -2.54 0) (length 5.08)
+        (name "B_GND_DRAIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 -5.08 0) (length 5.08)
+        (name "B_STDA_SSTX-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 -7.62 0) (length 5.08)
+        (name "B_STDA_SSTX+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -12.7 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -12.7 0) (length 5.08) hide
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "MUSBR-4193-30_2_0"
+      (rectangle (start -10.16 -12.7) (end 10.16 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -15.24 5.08 0) (length 5.08)
+        (name "T_D+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 7.62 0) (length 5.08)
+        (name "T_D-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 10.16 0) (length 5.08)
+        (name "T_VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 2.54 0) (length 5.08)
+        (name "T_GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 0.0 0) (length 5.08)
+        (name "T_STDA_SSRX-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 -2.54 0) (length 5.08)
+        (name "T_STDA_SSRX+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -5.08 0) (length 5.08)
+        (name "T_GND_DRAIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 -7.62 0) (length 5.08)
+        (name "T_STDA_SSTX-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 -10.16 0) (length 5.08)
+        (name "T_STDA_SSTX+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

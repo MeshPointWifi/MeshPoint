@@ -1,0 +1,193 @@
+(footprint "MINI-FLAT-4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TOSHIBA PHOTOCOUPLER GaAs IRED & PHOTO-TRANSISTOR 11-3A1\n\nSource: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP283_datasheet.pdf")
+	(property "Reference" "REF**"
+		(at -1.905 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81886859-4a31-4bc6-9e9e-5e73a428ac3a")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MINI-FLAT-4"
+		(at -1.905 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09c651e2-1e1b-4a22-a484-ae07f0916d3d")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d18685e5-46ca-4fba-9b10-0d91791d63fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "febb4271-ec7a-427d-b8d3-562279a9eec8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.0849 -1.1684)
+		(end -2.0849 1.1684)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aeb0dc0d-e5d0-447b-906b-1d14b23d6724")
+	)
+	(fp_line
+		(start -2.0849 1.1684)
+		(end 2.0849 1.1684)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66e8abdf-b1af-466d-8663-5cd5e4c31d01")
+	)
+	(fp_line
+		(start 2.0849 -1.1684)
+		(end -2.0849 -1.1684)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23f090dd-cdda-4455-8e94-18a22b5c195c")
+	)
+	(fp_line
+		(start 2.0849 1.1684)
+		(end 2.0849 -1.1684)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4135151-4f53-4bbf-9118-a9634518bf15")
+	)
+	(fp_circle
+		(center -1.285 -0.354)
+		(end -0.9501 -0.354)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "654f4c30-3f4e-4ac3-8445-2c75524d7bcb")
+	)
+	(fp_poly
+		(pts
+			(xy -3.471 -0.4445) (xy -2.15 -0.4445) (xy -2.15 -0.8255) (xy -3.471 -0.8255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a55c137f-638b-4438-8463-f66bd4dc1283")
+	)
+	(fp_poly
+		(pts
+			(xy -3.471 0.8255) (xy -2.15 0.8255) (xy -2.15 0.4445) (xy -3.471 0.4445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6b94a03a-17d5-4bca-8699-22569586cf18")
+	)
+	(fp_poly
+		(pts
+			(xy 3.471 -0.8255) (xy 2.15 -0.8255) (xy 2.15 -0.4445) (xy 3.471 -0.4445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4415721a-1b19-4933-b10b-5ac08ac20808")
+	)
+	(fp_poly
+		(pts
+			(xy 3.471 0.4445) (xy 2.15 0.4445) (xy 2.15 0.8255) (xy 3.471 0.8255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "024f0d8a-2e0d-401e-9eee-231b956a8646")
+	)
+	(pad "1" smd rect
+		(at -3.24 -0.635)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "4b4793ce-da4d-4156-b02d-55036d8e5081")
+	)
+	(pad "2" smd rect
+		(at -3.24 0.635)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "3998c266-20d0-439b-8b56-bb90a99333b3")
+	)
+	(pad "3" smd rect
+		(at 3.24 0.635 180)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "228fb9e1-c879-4c1e-ae77-b7a75da03eb5")
+	)
+	(pad "4" smd rect
+		(at 3.24 -0.635 180)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "6bead3a8-a22a-44b1-902a-5a987e57b145")
+	)
+	(embedded_fonts no)
+)

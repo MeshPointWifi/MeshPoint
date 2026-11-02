@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Jalapeno-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Jalapeno-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "PCF8563T_5_518") (type "KiCad") (uri "${KIPRJMOD}/lib/PCF8563T/KiCad/PCF8563T_5_518.kicad_sym") (options "") (descr ""))
+	(lib (name "SC32S-12_5PF20PPM") (type "KiCad") (uri "${KIPRJMOD}/lib/SC32S-12.5PF20PPM/KiCad/SC32S-12_5PF20PPM.kicad_sym") (options "") (descr ""))
+	(lib (name "MUSBR-4193-30") (type "KiCad") (uri "${KIPRJMOD}/lib/MUSBR-4193-30/MUSBR-4193-30.kicad_sym") (options "") (descr ""))
+)

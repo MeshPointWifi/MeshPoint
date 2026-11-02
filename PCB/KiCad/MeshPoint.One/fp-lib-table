@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Jalapeno") (type "KiCad") (uri "$(KIPRJMOD)/MeshPoint.One.pretty") (options "") (descr ""))
+	(lib (name "RTC") (type "KiCad") (uri "${KIPRJMOD}/lib/PCF8563T/KiCad") (options "") (descr ""))
+	(lib (name "Oscilator") (type "KiCad") (uri "${KIPRJMOD}/lib/SC32S-12.5PF20PPM/KiCad") (options "") (descr ""))
+)

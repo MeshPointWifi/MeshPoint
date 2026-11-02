@@ -1,0 +1,38 @@
+(kicad_wks (version 20220228) (generator "hand-coded")
+  (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
+    (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 10)
+  )
+  ; Border
+  (rect (name "border") (start 0 0 ltcorner) (end 0 0 rbcorner) (linewidth 0.35))
+
+  ; Title block
+  (rect (name "title_block") (start 110 0 rbcorner) (end 0 24 rbcorner))
+
+  ; Horizontal line
+  (line (name "hline1") (start 110 12 rbcorner) (end 0 12 rbcorner))
+  (line (name "hline2") (start 110 6 rbcorner) (end 0 6 rbcorner))
+
+  ; Vertical lines
+  (line (name "vline1") (start 50 24 rbcorner) (end 50 12 rbcorner))
+  (line (name "vline2") (start 25 12 rbcorner) (end 25 0 rbcorner))
+
+  ; Labels
+  (tbtext "TITLE:" (name "label_title") (pos 108 22 rbcorner))
+  (tbtext "${TITLE}" (name "title") (pos 48 22 rbcorner) (font (size 3 3)))
+
+  (tbtext "PROJECT:" (name "label_project") (pos 108 16 rbcorner))
+  (tbtext "MeshPoint.One" (name "project") (pos 48 16 rbcorner) (font (size 2 2)))
+
+  (tbtext "REV:" (name "label_rev") (pos 108 10 rbcorner))
+  (tbtext "${REVISION}" (name "revision") (pos 90 10 rbcorner) (font (size 2 2)))
+
+  (tbtext "DATE:" (name "label_date") (pos 48 10 rbcorner))
+  (tbtext "${ISSUE_DATE}" (name "date") (pos 26 10 rbcorner) (font (size 2 2)))
+
+  (tbtext "SHEET:" (name "label_sheet") (pos 23 4 rbcorner))
+  (tbtext "${#}/${##}" (name "sheet") (pos 5 4 rbcorner) (font (size 2 2)))
+
+  ; Designer info
+  (tbtext "DESIGNED BY:" (name "label_designer") (pos 108 4 rbcorner))
+  (tbtext "Goran Mahovlic" (name "designer") (pos 70 4 rbcorner) (font (size 2 2)))
+)

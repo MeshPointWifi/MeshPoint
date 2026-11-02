@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCF8563T_5,518
+D Real Time Clock
+K
+F http://www.nxp.com/docs/en/data-sheet/PCF8563.pdf
+$ENDCMP
+#
+#End Doc Library
