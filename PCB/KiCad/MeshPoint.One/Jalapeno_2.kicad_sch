@@ -6,7 +6,7 @@
 	(paper "User" 300.05 217.322)
 	(title_block
 		(title "${project_name} ")
-		(date "2026-01-22")
+		(date "2026-11-02")
 		(rev "${project_version} ")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")

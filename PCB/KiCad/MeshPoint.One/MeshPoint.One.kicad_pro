@@ -801,10 +801,10 @@
   ],
   "text_variables": {
     "project_creator": "Meshpoint d.o.o.",
-    "project_license": "ALL Rights reserved!!!",
+    "project_license": "CERN-OHL-S v2",
     "project_name": "MeshpointOne",
     "project_version": "V4.1",
-    "project_year": "2025"
+    "project_year": "2026"
   },
   "tuning_profiles": {
     "meta": {

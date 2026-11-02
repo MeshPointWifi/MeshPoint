@@ -2,6 +2,10 @@
 MeshPoint is Open source Wifi Hotspot for Crisis Situations
 www.meshpointone.com
 
+## MeshPoint v4.1
+
+![MeshPoint](/Photos/meshpointV4.png)
+
 ## Licence
 
 This project (hardware designs, 3D files and documentation) is released under the
